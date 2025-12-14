@@ -57,8 +57,9 @@ The project uses the following datasets:
    ```bash
    git clone https://github.com/Kashish-3k8/REVENUE-LEAKAGE-IN-HOSPITALITY.git
 
-🔗 Live Dashboard:  
-https://bitmesra-my.sharepoint.com/:u:/g/personal/btech10172_23_bitmesra_ac_in/IQBSmXX-rTSUT4GukrwbmIlYAQFIlyhPpt-s8IrFtf-DUeA?e=EDmtSU
+🔗 Live Dashboard: 
+
+https://app.powerbi.com/links/SfQ_ZFi07w?ctid=12b4fbf9-dea8-4490-bede-9cc40309ad61&pbi_source=linkShare
 
 ### Insights Covered:
 - Revenue leakage analysis
