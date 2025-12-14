@@ -56,3 +56,12 @@ The project uses the following datasets:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Kashish-3k8/REVENUE-LEAKAGE-IN-HOSPITALITY.git
+
+🔗 Live Dashboard:  
+https://bitmesra-my.sharepoint.com/:u:/g/personal/btech10172_23_bitmesra_ac_in/IQBSmXX-rTSUT4GukrwbmIlYAQFIlyhPpt-s8IrFtf-DUeA?e=EDmtSU
+
+### Insights Covered:
+- Revenue leakage analysis
+- Occupancy vs revenue trends
+- Room category performance
+- City-wise hotel comparison
