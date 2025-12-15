@@ -1,68 +1,178 @@
-# 📊 Revenue Leakage Analysis in the Hospitality Sector
+---
 
-## 🏨 Project Overview
-Revenue leakage is a critical issue in the hospitality industry, where potential revenue is lost due to pricing inefficiencies, booking cancellations, underutilized room inventory, or operational gaps.
-This project focuses on analyzing hotel booking data to identify patterns and factors contributing to revenue leakage and to provide data-driven insights for improving profitability.
+🏨 Optimizing Revenue Leakage & Profitability in Hospitality
+
+End-to-end Business Intelligence project using Power BI & Python to identify revenue leakage, optimize pricing, and improve profitability in hotel operations.
+
 
 ---
 
-## 🎯 Objectives
-- Analyze hotel booking and room data to understand revenue trends
-- Identify potential sources of revenue leakage
-- Explore booking success rates across room categories and hotels
-- Support better decision-making using data analytics
+📌 Project Objective
+
+To build a data-driven analytics framework that helps hospitality businesses:
+
+Detect revenue leakage
+
+Improve pricing & room mix decisions
+
+Reduce cancellations and no-shows
+
+Increase overall profitability
+
+
+The project uses Week-on-Week (WoW) analysis, hospitality KPIs, and AI-powered Power BI insights.
+
 
 ---
 
-## 📁 Dataset Description
-The project uses the following datasets:
+🧠 Business Problem
 
-- **fact_bookings.csv** – Detailed booking-level data  
-- **fact_aggregated_bookings.csv** – Aggregated booking metrics  
-- **dim_hotels.csv** – Hotel-related information  
-- **dim_rooms.csv** – Room category and pricing details  
-- **dim_date.csv** – Date dimension for time-based analysis  
+Hotels face:
 
----
+Unclear revenue losses
 
-## 🛠️ Tools & Technologies Used
-- **Python**
-- **Pandas**
-- **PowerBI**
-- **NumPy**
-- **Jupyter Notebook**
-- **Git & GitHub**
-- **VS Code**
+High booking cancellations
+
+Poor utilization of premium rooms
+
+Weekday–weekend demand imbalance
+
+
+Despite having booking data, actionable insights are often missing. This project bridges that gap.
+
 
 ---
 
-## 📌 Key Analysis Performed
-- Data loading and cleaning
-- Exploratory Data Analysis (EDA)
-- Booking success analysis
-- Hotel and room-wise performance comparison
-- Identification of trends related to revenue leakage
+🗂 Dataset
+
+File	Description
+
+dim_hotels	Property metadata
+dim_date	Date & time attributes
+dim_rooms	Room category details
+fact_bookings	Transaction-level bookings
+fact_aggregated_bookings	Aggregated KPIs
+
+
 
 ---
 
-## 📈 Expected Insights
-- Hotels or room categories with low booking success
-- Time periods with higher cancellation or low utilization
-- Operational areas where revenue loss can be minimized
+🛠 Tools & Technologies
+
+Python (Pandas, NumPy) – Data cleaning & preprocessing
+
+Power BI – Data modeling, DAX, dashboards
+
+DAX – Custom KPIs & WoW metrics
+
+Jupyter Notebook – Exploratory analysis
+
+
 
 ---
 
-## 🚀 How to Run the Project
-1. Clone the repository:
+📊 Key KPIs & Metrics
+
+Revenue
+
+RevPAR
+
+ADR
+
+Occupancy %
+
+Realization %
+
+Cancellation %
+
+WoW Growth Metrics
+
+
+
+---
+
+📈 Dashboard Highlights
+
+1️⃣ Executive Overview
+
+Revenue: ₹1.71B (+0.8% WoW)
+
+Occupancy: 57.9%
+
+RevPAR: ₹7.35K
+
+Cancellation Rate: 24.8%
+
+
+2️⃣ Property & Room Insights
+
+Elite & Presidential rooms generate highest revenue
+
+Atliq Exotica is the top-performing property
+
+Atliq Seasons shows consistent underperformance
+
+
+3️⃣ Revenue Decomposition (AI)
+
+Weekday revenue dominates (₹1184.8M vs ₹524.0M weekends)
+
+Luxury category drives maximum weekday revenue
+
+Mumbai is the highest revenue-generating city
+
+
+4️⃣ Cancellation Analysis
+
+Delhi bookings are 1.07× more likely to cancel
+
+“Others” platform has the highest cancellation rate
+
+Platform- and city-specific issues identified
+
+
+
+---
+
+🎯 Business Recommendations
+
+Optimize weekend pricing & offers (+15% revenue potential)
+
+Improve UX & policies on high-cancellation platforms
+
+Promote Premium & Presidential rooms
+
+Introduce flexible cancellation & reminder systems
+
+
+
+---
+
+🔮 Project Impact (Forecast)
+
+📈 +5,300 bookings/year
+
+💰 ₹88.6M additional annual revenue
+
+⭐ Improved customer satisfaction & retention
+
+
+
+---
+
+🔗 Power BI Dashboard link:
+  ```bash
+https://app.powerbi.com/links/SfQ_ZFi07w?ctid=12b4fbf9-dea8-4490-bede-9cc40309ad61&pbi_source=linkShare
+ ```
+
+🔗Clone the repository:
    ```bash
    git clone https://github.com/Kashish-3k8/REVENUE-LEAKAGE-IN-HOSPITALITY.git
 
-🔗 Live Dashboard: 
+---
 
-https://app.powerbi.com/links/SfQ_ZFi07w?ctid=12b4fbf9-dea8-4490-bede-9cc40309ad61&pbi_source=linkShare
+👩‍💻 Author
 
-### Insights Covered:
-- Revenue leakage analysis
-- Occupancy vs revenue trends
-- Room category performance
-- City-wise hotel comparison
+Kashish Kumari
+B.Tech , BIT Mesra
+📊 Data Analytics | Power BI | Business Intelligence
