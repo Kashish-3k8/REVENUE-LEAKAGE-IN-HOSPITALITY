@@ -48,9 +48,13 @@ Despite having booking data, actionable insights are often missing. This project
 File	Description
 
 dim_hotels	Property metadata
+
 dim_date	Date & time attributes
+
 dim_rooms	Room category details
+
 fact_bookings	Transaction-level bookings
+
 fact_aggregated_bookings	Aggregated KPIs
 
 
