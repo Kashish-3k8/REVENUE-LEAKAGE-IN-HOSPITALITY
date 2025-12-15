@@ -161,9 +161,9 @@ Introduce flexible cancellation & reminder systems
 ---
 
 🔗 Power BI Dashboard link:
-  ```bash
+  
 https://app.powerbi.com/links/SfQ_ZFi07w?ctid=12b4fbf9-dea8-4490-bede-9cc40309ad61&pbi_source=linkShare
- ```
+
 
 🔗Clone the repository:
    ```bash
